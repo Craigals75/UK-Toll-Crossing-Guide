@@ -606,3 +606,16 @@ button:focus-visible {
     gap: 12px;
   }
 }
+.card-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--green-dark);
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.card-link:hover,
+.card-link:focus {
+  color: var(--navy);
+}
